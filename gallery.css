@@ -33,3 +33,12 @@ header{
     left: 200px;
     bottom: 50px;
 } 
+
+footer {
+    width: 50%;
+    height: 20px;
+    margin: 25%;
+    background: #0505052d;
+    color: rgb(0, 0, 0);
+ text-align: center;
+}
