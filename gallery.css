@@ -7,7 +7,7 @@ header{
 
 .logo{
     height: 150px;
-    border-radius: 24px;
+    border-radius: 50%;
 }
 
 .navigazione{
@@ -24,12 +24,22 @@ header{
 .head-1{
     display: inline;
     width: 750px;
+   
 } 
 
 .head-2{
     background-color: aquamarine;
     display: inline;
     position: relative;
-    left: 200px;
-    bottom: 50px;
+    left: 500px;
+    bottom: 8px;
 } 
+
+footer {
+    width: 50%;
+    height: 20px;
+    margin: 25%;
+    background: #0505052d;
+    color: rgb(0, 0, 0);
+ text-align: center;
+}
