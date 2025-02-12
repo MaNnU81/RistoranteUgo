@@ -7,7 +7,7 @@ header{
 
 .logo{
     height: 150px;
-    border-radius: 24px;
+    border-radius: 50%;
 }
 
 .navigazione{
@@ -24,14 +24,15 @@ header{
 .head-1{
     display: inline;
     width: 750px;
+   
 } 
 
 .head-2{
     background-color: aquamarine;
     display: inline;
     position: relative;
-    left: 200px;
-    bottom: 50px;
+    left: 500px;
+    bottom: 8px;
 } 
 
 footer {
@@ -41,4 +42,22 @@ footer {
     background: #0505052d;
     color: rgb(0, 0, 0);
  text-align: center;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:400px;
+    height:400px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:400px;
+    height:400px;
+}
+
+.gmap_iframe {
+    width:400px!important;
+    height:400px!important;
 }
